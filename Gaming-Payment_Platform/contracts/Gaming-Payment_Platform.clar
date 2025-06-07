@@ -108,7 +108,6 @@
     winner: (optional principal)
   }
 )
-
 ;; Tournament participants
 (define-map tournament-participants
   {tournament-id: uint, player: principal}
