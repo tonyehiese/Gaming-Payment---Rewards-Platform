@@ -225,7 +225,6 @@
     (ok amount)
   )
 )
-
 ;; Withdraw funds from player balance
 (define-public (withdraw-funds (amount uint))
   (let ((caller tx-sender)
