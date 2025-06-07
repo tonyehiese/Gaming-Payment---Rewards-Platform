@@ -330,7 +330,6 @@
     (ok true)
   )
 )
-
 ;; Create in-game item/NFT
 (define-public (create-game-item (game-id uint) (name (string-ascii 64)) (description (string-ascii 256)) (price uint) (rarity uint) (max-supply uint))
   (let ((caller tx-sender)
