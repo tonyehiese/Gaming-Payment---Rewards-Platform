@@ -179,7 +179,6 @@
 )
 
 ;; Public Functions
-
 ;; Player registration and management
 (define-public (register-player)
   (let ((caller tx-sender)
